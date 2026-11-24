@@ -9,7 +9,7 @@ import  configData  from '../config/configData.json';
  let loginPage : LoginPage = new LoginPage();
  let pimpage : PIMPage = new PIMPage();
 
-test('Launching The Browser', async () => 
+test('AddEmpThenVerify', async () => 
 {
     CommonUtils.page.setDefaultTimeout(60000);
     loginPage.login();
